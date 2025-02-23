@@ -13,7 +13,7 @@ export default function Dashboard() {
   return (
     <div className="p-6">
       <h2 className="text-2xl font-bold mb-4">Available Hospitals</h2>
-      <ul>
+      <ul className="space-y-4">
         {hospitals.map((hospital) => (
           <li key={hospital._id} className="p-4 bg-white shadow mb-4 rounded">
             <h3 className="text-xl font-bold">{hospital.name}</h3>

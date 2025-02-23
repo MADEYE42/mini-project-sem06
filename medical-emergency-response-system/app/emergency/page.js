@@ -18,11 +18,11 @@ export default function EmergencyRequest() {
 
   return (
     <div className="p-6 max-w-lg mx-auto bg-white shadow-md rounded">
-      <h2 className="text-xl font-semibold">Request Emergency Assistance</h2>
+      <h2 className="text-2xl font-semibold mb-4">Request Emergency Assistance</h2>
       <form onSubmit={handleRequest}>
         <textarea placeholder="Describe your emergency" value={issue} onChange={(e) => setIssue(e.target.value)} className="w-full p-2 border mb-2" />
         <input type="text" placeholder="Nearest Hospital ID" value={hospitalId} onChange={(e) => setHospitalId(e.target.value)} className="w-full p-2 border mb-2" />
-        <button type="submit" className="w-full bg-red-600 text-white p-2 rounded">Submit Request</button>
+        <button type="submit" className="w-full bg-red-600 text-white p-2 rounded hover:bg-red-500 transition duration-300">Submit Request</button>
       </form>
     </div>
   );

@@ -24,7 +24,7 @@ export default function Login() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-gray-800">
       <div className="w-full max-w-md p-8 bg-white bg-opacity-10 backdrop-blur-lg rounded-xl shadow-lg">
-        <h2 className="text-2xl font-bold text-white text-center mb-6">Welcome Back</h2>
+        <h2 className="text-3xl font-bold text-white text-center mb-6">Welcome Back</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <input
             type="email"
