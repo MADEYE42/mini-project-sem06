@@ -135,8 +135,4 @@ Now, open [http://localhost:3000](http://localhost:3000) in your browser! 🚀
 ## 🤝 Contributing
 Feel free to fork the repository and submit PRs!
 
----
-
-## 📜 License
-This project is licensed under the **MIT License**.
 
